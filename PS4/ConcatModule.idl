@@ -1,5 +1,0 @@
-module ConcatModule {
-    interface Concat {
-        string concat_string(in string str1, in string str2);
-    };
-};

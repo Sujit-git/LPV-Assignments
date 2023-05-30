@@ -1,6 +1,0 @@
-idlj -fall ConcatModule.idl 
-javac *.java ConcatModule/*.java
-orbd -ORBInitialPort 1050&
-java ConcatServer -ORBInitialPort 1050& -ORBInitialHost localhost 
-
-java ConcatClient -ORBInitialPort 1050 -ORBInitialHost localhost
